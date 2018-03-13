@@ -4,6 +4,7 @@
     <title>Trip Planner</title>
     <link href='https://api.mapbox.com/mapbox-gl-js/v0.44.1/mapbox-gl.css' rel='stylesheet' />
     <link rel="stylesheet" href="./style.css"></link>
+    <meta name="viewport" content="width=device-width" />
     <script src="./bundle.js" defer></script>
   </head>
   <body>
@@ -18,64 +19,67 @@
         <li><a href="#">Contact Us</a></li>
       </ul>
     </div>
-    <div id="map">
-      <div id="options-panel">
-        <h2>Hotels</h2>
-        <div class="interaction">
-          <select name="" id="">
-            <option value="">What</option>
-            <option value="">Where</option>
-            <option value="">Who</option>
-          </select>
-          <button disabled="disabled">X</button>
-        </div>
-
-        <h2>Restaurants</h2>
-        <div class="interaction">
-          <select name="" id="">
-            <option value="">What</option>
-            <option value="">Where</option>
-            <option value="">Who</option>
-          </select>
-          <button disabled="disabled">Y</button>
-        </div>
-
-        <h2>Things To Do</h2>
-        <div class="interaction">
-          <select name="" id="">
-            <option value="">What</option>
-            <option value="">Where</option>
-            <option value="">Who</option>
-          </select>
-          <button disabled="disabled">Z</button>
-        </div>
+    <div id="main">
+      <div id="map">
       </div>
-      <div id="itinerary">
-        <h1>Itinerary</h1>
-        <h2>My Hotel</h2>
-        <div class="display">
-          <ul>
-            <li>Blahblablahblah</li>
-          </ul>
-          <button disabled='disabled'>XXX</button>
-        </div>
+      <div id="sidepanel">
+        <div id="options-panel">
+          <h2>Hotels</h2>
+          <div class="interaction">
+            <select name="" id="">
+              <option value="">What</option>
+              <option value="">Where</option>
+              <option value="">Who</option>
+            </select>
+            <button disabled="disabled">X</button>
+          </div>
 
-        <h2>My Restaurants</h2>
-        <div class="display">
-          <ul>
-            <li>Blahblablahblah</li>
-          </ul>
-          <button disabled='disabled'>XXX</button>
-        </div>
+          <h2>Restaurants</h2>
+          <div class="interaction">
+            <select name="" id="">
+              <option value="">What</option>
+              <option value="">Where</option>
+              <option value="">Who</option>
+            </select>
+            <button disabled="disabled">Y</button>
+          </div>
 
-        <h2>My Activities</h2>
-        <div class="display">
-          <ul>
-            <li>Blahblablahblah</li>
-          </ul>
-          <button disabled='disabled'>XXX</button>
+          <h2>Things To Do</h2>
+          <div class="interaction">
+            <select name="" id="">
+              <option value="">What</option>
+              <option value="">Where</option>
+              <option value="">Who</option>
+            </select>
+            <button disabled="disabled">Z</button>
+          </div>
         </div>
+        <div id="itinerary">
+          <h1>Itinerary</h1>
+          <h2>My Hotel</h2>
+          <div class="display">
+            <ul>
+              <li>Blahblablahblah</li>
+            </ul>
+            <button disabled='disabled'>XXX</button>
+          </div>
 
+          <h2>My Restaurants</h2>
+          <div class="display">
+            <ul>
+              <li>Blahblablahblah</li>
+            </ul>
+            <button disabled='disabled'>XXX</button>
+          </div>
+
+          <h2>My Activities</h2>
+          <div class="display">
+            <ul>
+              <li>Blahblablahblah</li>
+            </ul>
+            <button disabled='disabled'>XXX</button>
+          </div>
+        </div>
       </div>
     </div>
   </body>
