@@ -13,3 +13,43 @@ body {
   width: 100vw;
 }
 
+#navBar {
+  display: flex;
+  background-color: aquamarine;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#navBar #title h1 {
+  color: darkmagenta;
+  font-size: 1.5rem;
+  padding: 0;
+  margin: 0;
+}
+
+#navBar #title p {
+  color: darkmagenta;
+  font-size: 1rem;
+  padding: 0;
+  margin: 0;
+}
+
+#nav {
+  display: flex;
+}
+
+#nav li {
+  margin: 1em;
+  padding: 0;
+  list-style-type: none;
+}
+
+#nav li a {
+  text-decoration: none;
+}
+
+#options-panel {
+  background-color: fuchsia;
+  width: 20vw;
+  height: 40vh;
+}
